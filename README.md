@@ -32,9 +32,7 @@ Ensure you have [node][node-link] greater than version 4 (Code contains es6 synt
 
 1. Get repo with `git clone https://github.com/Simonbaumann/CV.git'
 
-2. Delete the existing git repository by running `rm -rf .git`
-
-3. Run `npm install` to install the dependencies
+3. Run `npm install` and `bower install` to install the dependencies
 
 ### Development server (with hot reload)
 
