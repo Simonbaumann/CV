@@ -23,5 +23,9 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "devDependencies": {
+    "bootstrap-autohidingnavbar": "~1.0.4",
+    "wow": "wowjs#~1.1.2"
+  }
 }
