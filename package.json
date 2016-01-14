@@ -1,0 +1,52 @@
+{
+  "name": "cv-simonbaumann",
+  "version": "1.0.0",
+  "description": "CV Simon Baumann using webpack, GitHub and Bootstrap",
+  "main": "",
+  "dependencies": {
+    "animate.css": "^3.4.0",
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.1.4"
+  },
+  "devDependencies": {
+    "bower": "^1.7.2",
+    "cross-env": "^1.0.7",
+    "css-loader": "^0.23.1",
+    "expose-loader": "^0.7.1",
+    "extract-text-webpack-plugin": "^1.0.0",
+    "file-loader": "^0.8.5",
+    "html-webpack-plugin": "^1.7.0",
+    "image-webpack-loader": "^1.6.2",
+    "less": "^2.5.3",
+    "less-loader": "^2.2.2",
+    "resize-image-loader": "^0.4.0",
+    "script-loader": "^0.6.1",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0",
+    "webpack-sources": "^0.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --colors -p",
+    "serve": "cross-env NODE_ENV=production webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "CV"
+  },
+  "keywords": [
+    "CV",
+    "Web",
+    "Simon",
+    "Baumann"
+  ],
+  "author": "Simon Baumann",
+  "engineStrict": true,
+  "engines": {
+    "node": ">=4"
+  },
+  "license": "ISC"
+}

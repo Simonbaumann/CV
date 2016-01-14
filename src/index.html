@@ -1,0 +1,410 @@
+﻿<!doctype html>
+
+
+
+<!-- REGARDE LES FLIP-BOXES -->
+
+<!-- GO SUR  : http://www.jqueryscript.net/loading/Create-Percentage-Circles-with-jQuery-CSS3-percircle-js.html
+pour les bars de progress circulaires -->
+
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--
+		<script type="text/javascript" src ="bootstrap/js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src ="bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="precircle-master/js/percircle.js"></script>
+		<script type="text/javascript" src="bootstrap/js/wow.min.js"></script>
+		<script type="text/javascript" src="bootstrap/js/jquery.bootstrap-autohidingnavbar.min.js"></script>
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="bootstrap/css/animate.css" rel="stylesheet">
+		<link href="percircle-master/css/percircle.css" rel="stylesheet">
+		-->
+		<link href='https://fonts.googleapis.com/css?family=Lobster|Candal|Inconsolata|Play|Orbitron:700|Source+Code+Pro|Amaranth|Alfa+Slab+One|Bevan|Permanent+Marker' rel='stylesheet' type='text/css'>
+	</head>
+	
+	<body data-spy="scroll" data-target=".navbar" data-offset="80">
+		<nav class="navbar navbar-inverse navbar-fixed-top" data-spy="affix" role="navigation" id="nav">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand candiman" href="#home" style="margin-left:100px">Simon Baumann</a>
+				</div>
+				<div class="collapse navbar-collapse" id="navbar">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#home">Home</a></li>
+						<li><a href="#profil">Profil</a></li>
+						<li><a href="#competences">Compétences</a></li>
+						<li><a href="#formation">Formations</a></li>
+						<li><a href="#cv">CV</a></li>
+						<li style="margin-right:100px"><a href="#contact">Contact</a></li>
+					</ul>
+				</div> <!-- nav collapse -->
+			</div> <!-- container-fluid -->
+		</nav> <!-- navbar-inverse -->
+
+		<!-- Section du menu principale -->
+		<section class="main" id="home">
+			<div class="page" id="main">
+				<div class="wrapper" id="wrapmain">	
+					<div class="container" style="margin-top:80px">
+						<div class="row centered">
+							<div class="col-sm-sm col-md-6">
+								<h1 id="mainh1">Simon Baumann<br><small id="smalll">Développeur web</small></h1>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- Section profile -->
+		<section class="section section-profile" id="profil">
+
+			<div class="container">
+				<div class="row centered" style="margin-top: 40px;"> 
+					<div class="wow animated bounceInLeft" style="visibility:visible; animation-name: bounceInLeft">
+						<img src="./assets/images/photoprofil.png" class="img-responsive img-circle img-thumbnail imgprofil" alt="">
+					<br><br>
+					
+					</div>
+					<p class="globh1 wow bounceInDown">A propos de moi</p>
+					
+				</div>
+				<div class="title-border"></div>
+				<div class="row centered">
+					<div class="col-md-8 wow bounceInUp" style="width: 1500px">
+						<p>Bonjour,<br> Je suis Simon Baumann, titulaire d'un DUT informatique depuis septembre 2015.
+						Actuellement en formation à la CCI (Chambre de Commerce et de l'Industrie) de Rodez et en alternance chez Orange Labs à Blagnac,
+						J'effectue cette formation pour décrocher un diplome d'ingénieur à la fin des 3 années de formation. Je suis quelqu'un de motivé et de persévérent...</p><p><span class="glyphicons glyphicons-coffee-cup"></span></p> 
+					</div>
+				</div>
+				<br><br><br>
+				<div class="row" style="width: 1750px">
+					<div class="col-md-1"></div>
+					<div class="col-md-5 wow bounceInLeft">
+						<h2 style="margin-left:200px">Infos</h2><br/><br/>
+						<div class="container-fluid align-left" style="display: inline-block" >
+							<div class="btn-group">
+								<button type="button" disabled class="btn-lg btn-primary" style="width: 186px">Date de naissance</button>
+								<button type="button" disabled class="btn-lg btn-default"><b>20 Décembre 1994</b></button>
+							</div><br><br>
+							<div class="btn-group">
+								<button type="button" disabled class="btn-lg btn-primary" style="width: 186px">Téléphone</button>
+								<button type="button" disabled class="btn-lg btn-default b"><b>07 83 93 11 83</b></button>
+							</div><br><br>
+							<div class="btn-group">
+								<button type="button" disabled class="btn-lg btn-primary" style="border-right-rawidth: 186px">&nbsp&nbsp&nbsp&nbspadresse email&nbsp&nbsp&nbsp&nbsp</button>
+								<button type="button" disabled class="btn-lg btn-default"><b>simonbaumann20@gmail.com</b></button>
+							</div><br>
+						</div>
+					</div>
+					<div class="col-md-6 wow bounceInRight" >
+						<div class="">
+							<center><h2>Loisirs et interets</h2></center>
+						</div>
+						<div class="row" style="margin-top:60px">
+							<center>
+							<div class="col-md-3">
+								<div class="logoLoisirs" id="imgbad"></div><br>Badminton
+							</div>
+							<div class="col-md-3">
+								<div class="logoLoisirs" id="imgserie"></div><br>Séries VOSTFR
+							</div>
+							<div class="col-md-3">
+								<div class="logoLoisirs" id="imgjeux"></div><br>Jeux Vidéo
+							</div>
+							<div class="col-md-3">
+								<div class="logoLoisirs" id="imgmusic"></div><br>Musique
+							</div>	
+							</center>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="section" id="backimg">
+			<div class="container">
+				
+			</div>
+		</section>
+		
+		
+		
+		<!-- Section competences -->
+		<section class="section" id="competences">
+		<br>
+			<div class="container">
+			<center><p class="globh1 wow bounceInDown">Mes compétences</p>
+			<div class="title-border"></div></center>
+				<div class="col-md-4 wow bounceInLeft">
+					<center><h2>Développement</h2></center><br>
+					
+					<p>HTML5/CSS3</p>
+					<div class="progress">
+						<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar"
+									aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:80%">80%
+						</div>
+					</div>
+					<p>SQL</p>
+					<div class="progress">
+						<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar"
+									aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:80%">80%
+						</div>
+					</div>
+					<p>Java</p>
+					<div class="progress">
+						<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar"
+									aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:70%">70%
+						</div>
+					</div>
+					<p>JavaScript</p>
+					<div class="progress">
+						<div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar"
+									aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:60%">60%
+						</div>
+					</div>
+					<p>C</p>
+					<div class="progress">
+						<div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar"
+									aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:45%">45%
+						</div>
+					</div>
+					<p>Shell</p>
+					<div class="progress">
+						<div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar"
+									aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:40%">40%
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 wow bounceInUp">
+					<center><h2>Outils</h2></center>
+					<br>
+					<p>Eclipse/NetBeans/WebStorm</p>
+					<div class="progress">
+						<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar"
+									aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:80%">80%
+						</div>
+					</div>
+					<p>Oracle</p>
+					<div class="progress">
+						<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar"
+									aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:70%">70%
+						</div>
+					</div>
+					<p>SqlServer</p>
+					<div class="progress">
+						<div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar"
+									aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:60%">60%
+						</div>
+					</div>
+					<p>Unix</p>
+					<div class="progress">
+						<div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar"
+									aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:60%">60%
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 wow bounceInRight">
+					<center><h2>Langages</h2></center>
+					<br>
+					<p>Anglais</p>
+					<div class="progress">
+						<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar"
+									aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:90%">90%
+						</div>
+					</div>
+					<p>Espagnol</p>
+					<div class="progress">
+						<div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar"
+									aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:50%">50%
+						</div>
+					</div>
+					<p>Chinois</p>
+					<div class="progress">
+						<div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar"
+									aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:20%">20%
+						</div>
+					</div>
+				</div>
+			</div>
+
+			</div>
+		</section>
+		
+		<section class="section" id="backimg">
+			<div class="container">
+				
+			</div>
+		</section>
+		
+		<!-- Section Stats -->
+		<section id="stats" class="section">
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-md-3 col-sm-12 hidden-xs wow bounceInLeft">
+						<div class="globh1">Mes Stats</div>
+					</div>
+
+					<div class="col-md-3 col-sm-4 wow bounceInDown">
+						<div class="stat">
+							<div class="stat-icon">
+								<h2><span class="glyphicons glyphicons-coffee-cup"></span><span class="timer" data-to="32">555</span></h2>
+							</div>
+							<h3>Cup of coffee</h3>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-4 wow bounceInUp">
+						<div class="stat">
+							<div class="stat-icon">
+								<h2><i class="fa fa-code hidden-xs"></i><span class="timer" data-to="999">30</span></h2>
+							</div>
+							<h3>Line of code</h3>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-4 wow bounceInRight">
+						<div class="stat">
+							<div class="stat-icon">
+								<h2><i class="fa fa-child hidden-xs"></i><span class="timer" data-to="300"></span>+</h2>
+							</div>
+							<h3>Happy customers</h3>
+						</div>
+					</div>
+
+				</div><!-- .row -->
+
+			</div><!-- .container -->
+
+		</section>
+		
+		<section class="section" id="backimg">
+			<div class="container">
+			</div>
+		</section>
+		
+		<!-- Section Formations -->
+		<section class="section" id="formation">
+		<br>
+			<div class="globh1">Formations et expériences</div>
+			<div class="title-border"></div>
+			<div class="container" id="ctnrform">
+				<br>
+				<div class="row">
+					<div class="col-md-3">
+					<h2>Formations</h2>
+					</div>
+					<div class="col-md-5">
+					<h3>Ecole d'ingénieur 3iL</h3>
+					<p class="styleform">préparation d'un diplome d'ingénieur en informatique
+						 formation en alternance sur 3 ans (niveau Bac+5).</p>
+					<hr style="border-color:black">
+					</div>
+					<div class="col-md-3">
+					<h4 style="margin-top:35px;"><div class="glyphicon glyphicon-book"></div>&nbsp CCI de Rodez</h4>
+					<p class="styleform"><div class="glyphicon glyphicon-calendar "></div>&nbsp 2015 - 2018</p>					
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3">
+					</div>
+					<div class="col-md-5">
+					<h3>DUT informatique</h3>
+					<p class="styleform">découverte des bases de la programmation informatique.</p>
+					<hr style="border-color:black">
+					</div>
+					<div class="col-md-3">
+					<h4 style="margin-top:15px"><div class="glyphicon glyphicon-book"></div>&nbsp IUT de Rodez</h4>
+					<p class="styleform"><div class="glyphicon glyphicon-calendar "></div>&nbsp 2013 - 2015</p>				
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3">
+					</div>
+					<div class="col-md-5">
+					<h3>BAC STG GSI</h3>
+					<p class="styleform">Baccalauréat STG option gestion des systèmes d'informations.</p>
+					<hr style="border-color:black">
+					</div>
+					<div class="col-md-3">
+					<h4 style="margin-top:15px;"><div class="glyphicon glyphicon-book"></div>&nbsp Lycée Marcelin Berthelot</h4>
+					<p class="styleform"><div class="glyphicon glyphicon-calendar "></div>&nbsp 2012 - 2013</p>				
+					</div>
+				</div>
+				<br><br>
+				<div class="row">
+					<div class="col-md-3">
+					<h2>Expériences</h2>
+					</div>
+					<div class="col-md-5">
+					<h3>Développeur Web</h3>
+					<p class="styleform">Alternance chez Orange OLPS dans un service de développement web (plateforme Webcom)</p>
+					<hr style="border-color:black">
+					</div>
+					<div class="col-md-3">
+					<h4 style="margin-top:35px;"><div class="glyphicon glyphicon-home"></div>&nbsp Orange Blagnac</h4>
+					<p class="styleform"><div class="glyphicon glyphicon-calendar "></div>&nbsp 2015 - 2018</p>					
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3">
+					</div>
+					<div class="col-md-5">
+					<h3>Programmeur Java/SQL</h3>
+					<p class="styleform">Stage de fin d'étude (DUT) de 10 semaines au Québec.
+					 Développement d'un système de conversion de documents HTML en documents PDF</p>
+					<hr style="border-color:black">
+					</div>
+					<div class="col-md-3">
+					<h4 style="margin-top:25px;"><div class="glyphicon glyphicon-home"></div>&nbsp SIE-Solutions (QC)</h4>
+					<p class="styleform"><div class="glyphicon glyphicon-calendar "></div>&nbsp Mai 2015</p>				
+					</div>
+				</div><br><br>
+				<div class="row">
+					<center><a href="#" class="btn btn-default btn-lg btn_custom"><span class="glyphicon glyphicon-cloud-download"/>&nbspTelecharger CV</a>
+				</div>
+			</div>
+		</section>
+		
+		<section class="section" id="backimg">
+			<div class="container">
+			</div>
+		</section>
+		
+		<!-- Section CV -->
+		<section class="section" id="cv">
+			<div class="container">
+				
+			</div>
+		</section>
+		
+		<section class="section" id="backimg">
+			<div class="container">
+			</div>
+		</section>
+		
+		<!-- Section Contact -->
+		<section class="section" id="contact">
+			<div class="container">
+				
+			</div>
+		</section>
+		
+
+		<button type="button" class="btn btn-default" aria-label="Left Align">
+			<span class="glyphicon glyphicon-fire" aria-hidden="true"></span>
+		</button>
+	</body>
+</html>

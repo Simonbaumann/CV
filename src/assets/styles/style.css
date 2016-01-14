@@ -1,0 +1,241 @@
+
+body, p {
+	font: 300 15px/1.6 'Raleway', serif, sans-serif;
+	color: black;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#nav.initial {
+	background-color: rgba(0,0,0,0);
+	padding: 15px 0;
+	border:none;
+}
+
+#nav.scrolled {
+	background-color:yellow;
+}
+
+p {
+	font-family: 'Philosopher', sans-serif;
+	font-size: 18px;
+}
+
+section {
+	height:955px;
+}
+
+.container {
+	width:auto;
+}
+
+section.main{
+	background:url(../images/ordibck1.jpg) no-repeat center center fixed;
+	background-size: cover;
+	height: 1060px;
+}
+
+
+section#profil {
+	height:1090px;
+	position:relative;
+	display: block;
+}
+
+section#profil::before {
+	content: "";
+	background:url(http://www.guillaumelorain.com/cv/wp-content/uploads/2013/03/brick051.jpg);
+	opacity: 0.4;
+	height:100%;
+	width:100%;
+	position: absolute;
+	z-index: -1;
+}
+
+
+section#backimg {
+	height:500px;
+	background-image:url(../images/lignes.jpeg);
+	background-attachment: fixed;
+}
+
+
+section#competences {
+	height:680px;
+}
+
+section#competences::before {
+	content: "";
+	background:url(http://www.guillaumelorain.com/cv/wp-content/uploads/2013/03/brick051.jpg);
+	opacity: 0.4;
+	height:100%;
+	width:100%;
+	position: absolute;
+	z-index: -1;
+}
+
+
+section#stats {
+	height:300px;
+	padding-left:500px;
+	padding-bottom:120px;
+	padding-top:120px;
+	background:url(http://www.guillaumelorain.com/cv/wp-content/uploads/2013/03/brick051.jpg);
+}
+
+
+section#formation {
+	height:1000px;
+	position:relative;
+	display: block;
+}
+
+section#formation::before {
+	content: "";
+	background:url(http://www.guillaumelorain.com/cv/wp-content/uploads/2013/03/brick051.jpg);
+	opacity: 0.4;
+	height:100%;
+	width:100%;
+	position: absolute;
+	z-index: -1;
+}
+
+.styleform {
+	font:300 15px/1.6 'Raleway', serif, sans-serif;
+	color:#545454
+}
+
+.container#ctnrform {
+	padding-left:250px;
+	padding-right:250px;
+	padding-bottom:120px;
+}
+
+
+section#cv {
+	height:600px;
+	background:url(http://www.guillaumelorain.com/cv/wp-content/uploads/2013/03/brick051.jpg);
+	opacity: 0.4;
+}
+
+section#contact {
+	height:600px;
+	background:url(http://www.guillaumelorain.com/cv/wp-content/uploads/2013/03/brick051.jpg);
+	opacity: 0.6;
+}
+
+.title-border {
+	width: 70px;
+    height: 3px;
+    background-color:black;
+    margin: 0 auto 35px;
+	border-radius:10px;
+}
+
+.page#main {
+	height:658px;
+	padding-top:40px;
+	padding-bottom:40px;
+	
+	
+}
+.wrapper#wrapmain {
+		margin-top:200px;
+		padding-top:70px;
+		padding-bottom:70px;
+}
+
+
+.centered {
+	text-align:center;
+}
+
+.centered  > div{
+    float: none;
+    display: inline-block;
+    text-align: center;
+	width:700px;
+}
+
+.imgprofil {
+    /* width:250px;
+    height:250px;
+	-moz-box-shadow: 0px 0px 10px #343434;
+	-webkit-box-shadow: 0px 0px 10px #343434;
+	-o-box-shadow: 0px 0px 10px #343434;
+	box-shadow: 0px 0px 10px #343434;
+	*/
+	display:inline-block;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    width:250px;
+    height:250px;
+    -webkit-border-radius:125px;
+    -moz-border-radius:125px;
+    border-radius:125px; 
+    border:50px double rgba(0,0,0,0.7);
+    border-color:#B2DFDB;
+	-webkit-transition:0.5s ease;
+    -moz-transition:0.5s ease;
+    -ms-transition:0.5s ease;
+    -o-transition:0.5s ease;
+    transition:0.5s ease;	
+}
+.imgprofil:hover {
+	border-width:0;
+    border-color:black;
+}
+
+.logoLoisirs {
+	height:100px;
+	width:100px;
+}
+
+.row#statsRow {
+	height:auto;
+	width:auto;
+}
+
+#mainh1 {
+	color:white;
+	text-transform: uppercase;
+	font-family: 'Orbitron', sans-serif;
+	font-size:50px;
+}
+
+.btn_custom {
+	padding:15px 25px;
+	border:2px solid #222;
+	background: 0 0;
+}
+
+.globh1 {
+	font-family: 'Alfa Slab One', cursive;
+	font-size:25px;
+	text-align:center;
+	color:black;
+}
+
+#smalll {
+	font-family: 'Alfa Slab One', cursive;
+	font-size:25px;
+	text-transform: lowercase;
+	color:white;
+}
+
+#imgbad {
+	background:url(../images/badminton_1.png) center no-repeat;
+	background-size: 100px 100px;
+}
+#imgserie {
+	background:url(../images/Flat-TV-icon.png) center no-repeat;
+	background-size: 100px 100px;
+}
+#imgjeux {
+	background:url(../images/account_icon_gamer.png) center no-repeat;
+	background-size: 100px 100px;
+}
+#imgmusic {
+	background:url(../images/headset.png) center no-repeat;
+	background-size: 100px 100px;
+}

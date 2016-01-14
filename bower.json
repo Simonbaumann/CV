@@ -1,0 +1,27 @@
+{
+  "name": "cv-simonbaumann",
+  "description": "CV Simon Baumann using webpack, GitHub and Bootstrap",
+  "main": "",
+  "authors": [
+    "Simon Baumann"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "CV",
+    "Web",
+    "Simon",
+    "Baumann"
+  ],
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
