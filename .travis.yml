@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - "4"
+script: 
+  - npm install
+  - bower install
+  - webpack
+notifications:
+  email:
+    on_failure: change
+after_success:
+   - bash ./deploy-gh-pages.sh
