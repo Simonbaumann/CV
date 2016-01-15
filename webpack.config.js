@@ -6,7 +6,7 @@ module.exports = {
     entry: {
         vendor: ["expose?jQuery!jquery", "bootstrap", "bootstrap.min.css", "wow.min.js",
                  "script!jquery.bootstrap-autohidingnavbar.js", "webpack/hot/only-dev-server",
-                 "webpack-dev-server/client?http://localhost:8080"],
+				 "webpack-dev-server/client?http://localhost:8080"],
         script: "./src/script.js"
     },
     output: {
@@ -22,7 +22,7 @@ module.exports = {
                  'url-loader?limit?100000'
               ]
             },
-            { test: /\.png$/, loader: 'url-loader?limit?100000'},
+            { test: /\.png$/, loader: 'url-loader?mimetype=image/png'},
             { test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/, 
               loader: "url-loader?limit=10000&minetype=application/font-woff" },
             { test: /\.(ttf)(\?v=[0-9]\.[0-9]\.[0-9])?$/, 
