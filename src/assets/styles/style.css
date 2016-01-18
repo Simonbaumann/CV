@@ -164,6 +164,8 @@ section#contact {
 	-o-box-shadow: 0px 0px 10px #343434;
 	box-shadow: 0px 0px 10px #343434;
 	*/
+	background:url(../images/photoprofil.png) no-repeat;
+	background-size: cover;
 	display:inline-block;
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
@@ -181,6 +183,7 @@ section#contact {
     -o-transition:0.5s ease;
     transition:0.5s ease;	
 }
+
 .imgprofil:hover {
 	border-width:0;
     border-color:black;

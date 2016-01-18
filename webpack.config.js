@@ -5,7 +5,7 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     entry: {
         vendor: ["expose?jQuery!jquery", "bootstrap", "bootstrap.min.css", "wow.min.js",
-                 "script!jquery.bootstrap-autohidingnavbar.js", "webpack/hot/only-dev-server",
+                 "script!jquery.bootstrap-autohidingnavbar.js",
 				 "webpack-dev-server/client?http://localhost:8080"],
         script: "./src/script.js"
     },
