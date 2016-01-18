@@ -1,7 +1,7 @@
 // Bug de la photo de profile. son transfert dans le fichier dist ne se fait pas correctement
 
 require('./assets/styles/style.css');
-require('html!./index.html');
+//require('html!./index.html');
 
 var wow = new WOW.WOW();
 
